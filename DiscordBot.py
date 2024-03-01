@@ -43,7 +43,7 @@ async def check_status():
         Alert_embed = discord.Embed(
             title="サーバーのメモリ使用量が80%を超えました",
             color=0xffff00, # 黄
-            description="<@941988870730420244>サーバーの状態を確認することを推奨します",
+            description="サーバーの状態を確認することを推奨します",
         )
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(embed=Alert_embed)
