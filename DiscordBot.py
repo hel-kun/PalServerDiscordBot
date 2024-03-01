@@ -8,7 +8,7 @@ client = discord.Client(intents=intent)
 TOKEN = 'Add DiscordBot TOKEN'
 # SREVER_PATH = ''
 # HOME_DIRECTORY = ''
-CHANNEL_ID = 0123456789 # Add Discord channel id
+CHANNEL_ID = 0123456789 # Rewrite Discord channel ID
 
 global serverStatus
 global memoryAlertSend
