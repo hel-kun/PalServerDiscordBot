@@ -6,6 +6,7 @@ PalServerの起動状況やサーバー全体のメモリ使用量を通知す�
 ## 概要
 PalServer.exeが起動したり落ちたりした際や、サーバー全体のメモリ使用量が80%を超えた際に通知を飛ばすBotです。
 WindowsOSでサーバーを立てている人は使えます。Ubuntsuサーバー使っている人は、まあこのコードなんて簡単にUbuntsuサーバー用に書き換えができるでしょう。(Ubuntsuサーバーはあまり詳しくはないですが、大した書き換えはないと思います)
+
 ![](https://helkun.dev/image/works/PalServerDiscordBot.png)
 
 ## 使い方
