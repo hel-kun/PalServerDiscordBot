@@ -1,5 +1,6 @@
 # PalServerDiscordBot
 A bot that notifies you about PalServer's startup status and memory usage of the entire server.
+
 PalServerの起動状況やサーバー全体のメモリ使用量を通知するボットです。
 
 ## 概要
