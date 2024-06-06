@@ -12,10 +12,12 @@ WindowsOSでサーバーを立てている人は使えます。Ubuntsuサーバ�
 ## 使い方
 1. あらかじめ[DiscordDeveloper](https://discord.com/developers/applications)でBotを作成し、動かしたいサーバーに入れておいてください。
 2. Pythonをサーバーにインストールし、インストールが完了したらターミナル(PowerShell)で`pip install discord.py`と`pipi install psutil`を実行してください。
-3. DiscordBot.pyというファイルをサーバー内のどこかに作ってこのリポジトリに入っているPythonファイルのコードをペーストします。
-4. `TOKEN = 'Add DiscordBot TOKEN'`の`Add DiscordBot TOKEN`の部分にBotのTOKENを入れます。
-5. `CHANNEL_ID = 0123456789`の欄にBotの通知を飛ばしたいチャンネルのIDを入れます。
-6. DiscordBot.pyがあるディレクトリ上で`python DiscordBot.py`とターミナル(PowerShell)で打つとBotが動きます。
+3. このリポジトリをクローンします
+4. リポジトリをクローンしたら`.env`というファイルを作成して、`TOKEN`,`SERVER_PATH`(PalServer.exeがある絶対パス),`HONE_PATH`,`CHANNEL_ID`の環境変数の設定をします。
+5. `python src/main.py`をターミナル上で実行！(そろそろ説明を書くのが面倒なのでくそ適当な説明になってます)
+
+## 余談
+windowsでサーバーを動かすのはくそです
 
 ## バク等があったら
 Issueに追加しておいてください。
