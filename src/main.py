@@ -98,7 +98,7 @@ async def start_server(interaction: discord.Interaction):
 async def stop_server(interaction: discord.Interaction):
     global SERVER_PATH
     try:
-        subprocess.run(["taskkill", "/IM", "PalServer-Win64-Test-Cmd.exe", "/F"], shell=True)
+        subprocess.run(["taskkill", "/IM", "PalServer-Win64-Shipping-Cmd.exe", "/F"], shell=True)
         ServerStop_embed = discord.Embed(
             title="PalServer.exeを停止します",
             color=0xffff00
